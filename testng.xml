@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AUtomation" parallel="methods" thread-count="2">
+    <parameter name="test" value="Automation"></parameter>
+    <parameter name="test2" value="Automation 2"></parameter>
+    <test verbose="2" preserve-order="true" name="Regression">
+        <classes>
+            <class name="AssertsDemo"/>
+        </classes>
+    </test>
+
+
+
+</suite>
