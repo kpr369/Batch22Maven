@@ -9,7 +9,7 @@ public class TestProject {
         for (int i = 0; i < 10; ++i) {
             arrayVariable[i] = i / 2;
             arrayVariable[i]++;
-            System.out.print(arrayVariable[i] + "A A");
+            System.out.print(arrayVariable[i] + "Hello");
             i++;
         }
 
